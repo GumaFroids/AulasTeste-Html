@@ -6,59 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <!--Aprendizado de Formulario teste -->
 <body>
-    <h1>Formulario</h1>
 
-    <!--COMECA FORMULARIO-->
-    <form>
-<label for="Campo_Digitação"><b>Nome</b></label>
-<input id="Campo_Digitação" type="text" placeholder="Digite aqui" required><br><br>
-<label for="Campo_Email"><b>Email</b></label>
-<input id="Campo_Email" width="100px" type="email" placeholder="Digite aqui" required><br><br>
-<label for="Campo_Senha"><b>Senha</b></label>
-<input id="Campo_Senha" type="password" placeholder="Digite aqui">
-<br><br><br>
+    <header class="menu">
+        <!-- MENU -->
+        <!-- PARA DAR ESPAÇO ENTRE PALAVRAS &nbsp; -->
+        <a href="../index.html">Home</a>  
+        <a href="segundo.html">Fotos</a>  
+        <a href="../dados.html">Jogadores</a>
+        <a href="https://www.youtube.com/channel/UCveZ1wGOYqUULIb88yckv9w" target="_blank">YouTube</a>
 
-<!--SELECIONE SEU TIME-->
-<select  name="times" >
-    <option selected disabled value="Selecione seu time">Selecione seu time</option>
-    <option value="Gavião">Gavião</option>
-    <option value="Peixe">Peixe</option>
-    <option value="Bambi">Bambi</option>
-    <option value="Porco">Porco</option>
-</select>
-
-<!-- TEXT AREA -->
-<h4> Digite sua mensagem:</h4>
-<textarea  required name="mensagem" placeholder="Digite aqui sua mensagem:" rows="7" cols="40"></textarea><br>
-
-<input  type="submit" value="Enviar" >
-
- </form><br><br>
-    <a href="../index.html">Link principal</a><br><br><hr>
+   </header> 
 
 
-<!--Teste Input-->
-<input type="button"><br>
-<label for="Digitação de checkbox"><b>Titulo</b></label>
-<input type="checkbox"><br>
-<label for="Digitação de checkbox"><b>Corinthans</b></label>
-<input type="checkbox"><br>
-<label for="Digitação de checkbox"><b>Melhor do Mundo</b></label>
-<input type="checkbox"><br><br>
-<input type="color"><br><br>
-<input type="date"><br><br>
-<input type="datetime-local"><br><br>
-<input type="file"><br><br>
-<input type="image"><br><br>
-<input type="month"><br><br>
-<input type="number"><br><br>
-<input type="radio"><br><br>
-<input type="range"><br><br>
-<input type="time"><br><br>
-<input type="week"><br><br>
+    <section class="info_contato">
+     <h1>Formulario</h1>
+     <!--COMECA FORMULARIO-->
+        <form>
+        <label for="Campo_Digitação"><b>Nome</b></label>
+        <input id="Campo_Digitação" type="text" placeholder="Digite aqui" required><br><br>
+        <label for="Campo_Email"><b>Email</b></label>
+        <input id="Campo_Email" width="100px" type="email" placeholder="Digite aqui" required><br><br>
+        <label for="Campo_Senha"><b>Senha</b></label>
+        <input id="Campo_Senha" type="password" placeholder="Digite aqui">
+        <br><hr>
+        </form>
 
-   
+    </section>  
+
+    <section class="Mensagem">
+        <!--SELECIONE SEU TIME-->
+        <form>
+
+            <select name="times" >
+                <option selected disabled value="Selecione seu time">Selecione seu time</option>
+                <option value="Gavião">Gavião</option>
+                <option value="Peixe">Peixe</option>
+                <option value="Bambi">Bambi</option>
+                <option value="Porco">Porco</option>
+
+            </select>
+
+            <!--Campo de mensagem-->
+            <h4> Digite sua mensagem:</h4>
+            <textarea  required name="mensagem" placeholder="Digite aqui sua mensagem:" rows="7" cols="40"></textarea><br>
+            <input  type="submit" value="Enviar" >
+            <br><br>
+            
+            <h2>Qual titulo desejaria ganhar esse ano </h2>
+    
+            <input type="radio" id="" name="campeonato" value="brasileirao"><label>brasileirão</label><br>
+            <input type="radio" name="campeonato" value="paulitao"><label>Paulistão</label><br>
+            <input type="radio" name="campeonato" value="libertadores"><label>Libertadores</label><br>
+            <input type="radio" name="campeonato" value="mundial"><label>Mundial</label><br>
+            <br><br>
+        </form>
+        
+    </section>
+
+    <article class="info aleatoria">
+        <!--Teste Input-->
+        <label for="Digitação de checkbox"><b>Titulo</b></label>
+        <input type="checkbox"><br>
+        <label for="Digitação de checkbox"><b>Corinthans</b></label>
+        <input type="checkbox"><br>
+        <label for="Digitação de checkbox"><b>Melhor do Mundo</b></label>
+        <input type="checkbox"><br><br>
+        <input type="color"><br><br>
+        <input type="date"><br><br>
+        <input type="datetime-local"><br><br>
+        <input type="file"><br><br>
+        <input type="image"><br><br>
+        <input type="month"><br><br>
+        <input type="number"><br><br>
+        <input type="range"><br><br>
+        <input type="time"><br><br>
+        <input type="week"><br><br>
+    </article>
+  
+    <footer class="rodape">
+
+        <h3>fonte de estudo</h3>
+         <!-- TESTE SOBRE LINK ABSOLUT O -->
+        <a href="https://youtube.com.br"><mark>site da video aula</mark></a>
+  
+    </footer>
+
 </body>
 </html> 
