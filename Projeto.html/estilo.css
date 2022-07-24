@@ -1,34 +1,130 @@
-* {
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+      }    
 
-body{
-    margin:0;
+    body{
+        margin:0;
+        background-color: rgba(119, 121, 5, 0.637);
+    }
 
-}
+    .menu{
+        position: sticky;
+        top:0;
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        border:2px solid rgb(255, 145, 0);
+    }
+
+    .audio {
+        opacity: 0.1;
+            
+    }
+
+    .fotos{
+        border:2px solid rgb(255, 145, 0);
+        color: white;
+        background-color: black;
+    }
+    
+    .img1{
+        border:2px solid rgb(255, 145, 0);
+        overflow: auto;
+    }
+
+    .img1 img{
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .img2{
+        border:2px solid rgb(255, 145, 0);
+        overflow: auto;
+    }
+
+    .img2 img{
+        float: right;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .img3{
+        border:2px solid rgb(255, 145, 0);
+        overflow: auto;
+    }
+
+    .img3 img{
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }    
+
+    .menu a{
+        
+        text-decoration: none;
+        padding: 3px;
+        background-color: aqua;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        border: 2px solid rgb(235, 8, 8);
+    }
+
+    .menu a:hover{
+        background-color: rgb(0, 0, 0);
+        color: orangered;
+    }
+
+    .conteudo-A{
+        text-align:center;
+        background-color: yellow;
+        border: 1px solid red;
+    }
+
+    .conteudo-B P{     
+        color: rgb(255, 0, 0);
+        border: 1px;
+        font-size: 30px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .conteudo-B a{
+        color: aliceblue;
+        padding: 2px;
+        background-color: rgb(0, 0, 255);
+        border:2px solid;
+        border-radius: 10px;
+    }
+
+    .conteudo-B a:hover{
+        background-color: rgb(238, 255, 0);
+        color: rgb(8, 8, 8);
+    }
+
+    .rodape{
+        height: 100px;
+        width: 100%;
+        background-color:black;
+        border:2px solid orange
+    }
+
+    .rodape a{
+        display: inline-block;
+        margin-top: 10px;
+        margin-left:185px;
+        padding:20px ;
+        background-color: purple;
+        color: white;
+        border:5px double;
+        border-radius: 10px;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .rodape a:hover{
+        background-color: rgb(255, 0, 234);
+        color: rgb(0, 0, 0);
+    }
 
 
-.menu{
-    padding: 10px;
-    background-color: rgb(165, 163, 158);
-    border: 2px solid red;
-}
 
-.menu a{
-    text-decoration: none;
-    padding: 3px;
-    background-color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    border: 2px solid red;
-}
-
-.menu a:hover{
-    background-color: violet;
-    color: rgb(4, 255, 37);
-}
-
-.conteudo-A{
-    background-color: yellow;
-    border: 1px solid red;
-}
